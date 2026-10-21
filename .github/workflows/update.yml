@@ -8,13 +8,15 @@ permissions:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "22"
       - run: node updater/update.mjs
+        env:
+          FULL_SCAN: ${{ github.event_name == 'workflow_dispatch' && '1' || '' }}
       - name: Save changes
         run: |
           git config user.name "tracker-bot"
