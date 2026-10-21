@@ -36,7 +36,7 @@ const titleOf = html => ((/<title>([^<]*)<\/title>/i.exec(html) || [])[1] || "")
 
 async function get(url) {
   try {
-    const r = await fetch(url, { headers: { "user-agent": UA, "accept-language": "en" }, redirect: "follow" });
+    const r = await fetch(url, { headers: { "user-agent": UA, "accept-language": "en" }, redirect: "follow", signal: AbortSignal.timeout(15000) });
     return { status: r.status, body: r.ok ? await r.text() : "" };
   } catch (e) { return { status: 0, body: "" }; }
 }
