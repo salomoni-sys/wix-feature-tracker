@@ -1,0 +1,2227 @@
+{
+ "checkedAt": null,
+ "found": 0,
+ "queries": 0,
+ "items": {
+  "wix-stores-request-store-locator-feature": [
+   "v",
+   "Wix Stores",
+   "Store locator",
+   "",
+   "2025-11-24"
+  ],
+  "wix-stores-request-additional-customization-options-for-the-product-page": [
+   "v",
+   "Wix Stores",
+   "More product page design options",
+   "",
+   "2025-07-02"
+  ],
+  "wix-stores-request-adding-a-request-quote-button": [
+   "v",
+   "Wix Stores",
+   "A ‘Request Quote’ button",
+   "",
+   "2025-07-02"
+  ],
+  "wix-stores-request-pre-ordering-products-in-spaces-by-wix": [
+   "v",
+   "Wix Stores",
+   "Pre-orders in Spaces by Wix",
+   "",
+   "2025-07-02"
+  ],
+  "wix-stores-request-using-wix-stores-for-rentals": [
+   "v",
+   "Wix Stores",
+   "Use Wix Stores for rentals",
+   "",
+   "2025-12-02"
+  ],
+  "wix-stores-request-adding-poshmark-as-a-sales-channel": [
+   "v",
+   "Wix Stores",
+   "Poshmark as a sales channel",
+   "",
+   "2025-07-02"
+  ],
+  "wix-stores-request-adding-etsy-as-a-sales-channel": [
+   "v",
+   "Wix Stores",
+   "Etsy as a sales channel",
+   "",
+   "2025-07-02"
+  ],
+  "wix-stores-request-adding-a-form-to-the-cart-page": [
+   "v",
+   "Wix Stores",
+   "A form on the cart page",
+   "",
+   "2025-07-02"
+  ],
+  "wix-stores-request-additional-inventory-management-apps": [
+   "v",
+   "Wix Stores",
+   "More inventory management apps",
+   "",
+   "2025-07-02"
+  ],
+  "wix-stores-request-public-wishlists": [
+   "v",
+   "Wix Stores",
+   "Public wishlists",
+   "",
+   "2025-07-02"
+  ],
+  "wix-stores-request-selling-customizable-products": [
+   "v",
+   "Wix Stores",
+   "Advanced product customization",
+   "",
+   "2026-10-07"
+  ],
+  "wix-stores-request-selling-nfts-in-wix-stores": [
+   "v",
+   "Wix Stores",
+   "Sell NFTs",
+   "",
+   "2025-12-02"
+  ],
+  "wix-stores-request-letting-customers-choose-pickup-points-from-a-map": [
+   "v",
+   "Wix Stores",
+   "Pick a pickup point on a map",
+   "",
+   "2026-02-02"
+  ],
+  "wix-stores-request-displaying-back-in-stock-requests-only-for-certain-products": [
+   "v",
+   "Wix Stores",
+   "Back-in-stock alerts for selected products",
+   "",
+   "2025-07-02"
+  ],
+  "wix-stores-request-sorting-back-in-stock-requests": [
+   "v",
+   "Wix Stores",
+   "Sort back-in-stock requests",
+   "",
+   "2025-07-02"
+  ],
+  "wix-stores-request-additional-shipping-label-options": [
+   "v",
+   "Wix Stores",
+   "More shipping label options",
+   "",
+   "2026-02-02"
+  ],
+  "wix-stores-request-letting-customers-schedule-a-pickup-time": [
+   "v",
+   "Wix Stores",
+   "Let shoppers schedule a pickup time",
+   "",
+   "2026-02-02"
+  ],
+  "wix-stores-request-integrating-wix-bookings": [
+   "v",
+   "Wix Stores",
+   "Connect Wix Bookings with Wix Stores",
+   "",
+   "2025-11-24"
+  ],
+  "wix-stores-request-manually-sending-wix-review-requests": [
+   "r",
+   "Wix Stores",
+   "Send review requests manually",
+   "",
+   "2026-03-20"
+  ],
+  "wix-stores-request-letting-customers-select-a-delivery-date-from-a-calendar": [
+   "r",
+   "Wix Stores",
+   "Pick a delivery date from a calendar",
+   "",
+   "2026-02-02"
+  ],
+  "wix-gift-cards-setting-up-automatic-email-reminders": [
+   "r",
+   "Wix Stores",
+   "Reminder emails for unused gift cards",
+   "",
+   "2026-07-01"
+  ],
+  "request-customizing-the-thank-you-page-layout": [
+   "v",
+   "Checkout",
+   "Customize the thank you page layout",
+   "",
+   "2025-07-02"
+  ],
+  "request-customizing-the-design-of-the-checkout-page": [
+   "r",
+   "Checkout",
+   "Customize the checkout page design",
+   "",
+   "2026-09-14"
+  ],
+  "wix-bookings-request-integrating-wix-bookings-with-the-koalandar-online-booking-application": [
+   "v",
+   "Wix Bookings",
+   "Koalandar integration",
+   "",
+   "2026-02-14"
+  ],
+  "request-additional-customization-options-for-the-wix-bookings-calendar": [
+   "v",
+   "Wix Bookings",
+   "More calendar design options",
+   "",
+   "2025-07-02"
+  ],
+  "request-allowing-clients-to-set-the-duration-of-a-service-in-wix-bookings": [
+   "v",
+   "Wix Bookings",
+   "Clients choose how long a session lasts",
+   "",
+   "2025-12-02"
+  ],
+  "wix-bookings-request-allowing-clients-to-book-without-entering-an-email-address": [
+   "v",
+   "Wix Bookings",
+   "Book without an email address",
+   "",
+   "2025-07-02"
+  ],
+  "wix-bookings-request-requiring-login-or-registration-before-booking-a-service": [
+   "v",
+   "Wix Bookings",
+   "Require login before booking",
+   "",
+   "2025-08-05"
+  ],
+  "wix-bookings-request-booking-sessions-for-clients-on-the-wix-app-without-entering-their-email": [
+   "v",
+   "Wix Bookings",
+   "Book clients in the app without their email",
+   "",
+   "2025-07-02"
+  ],
+  "wix-bookings-request-rescheduling-bookings-with-varied-pricing-options": [
+   "v",
+   "Wix Bookings",
+   "Reschedule bookings with varied prices",
+   "",
+   "2026-05-18"
+  ],
+  "wix-bookings-request-adding-an-appointment-waitlist-in-the-wix-app": [
+   "v",
+   "Wix Bookings",
+   "Appointment waitlist in the Wix app",
+   "",
+   "2026-03-23"
+  ],
+  "request-vacation-mode-in-wix-bookings": [
+   "v",
+   "Wix Bookings",
+   "Vacation mode",
+   "",
+   "2025-07-02"
+  ],
+  "wix-bookings-request-making-health-waivers-mandatory-before-clients-can-book": [
+   "v",
+   "Wix Bookings",
+   "Mandatory health waivers",
+   "",
+   "2025-10-28"
+  ],
+  "wix-bookings-request-allowing-clients-to-book-multiple-recurring-appointments-in-a-single-checkout": [
+   "v",
+   "Wix Bookings",
+   "Book several recurring appointments at once",
+   "",
+   "2025-07-02"
+  ],
+  "wix-bookings-request-adding-a-session-to-the-cart-from-the-weekly-timetable-or-the-daily-agenda": [
+   "v",
+   "Wix Bookings",
+   "Add to cart from the timetable or agenda",
+   "",
+   "2025-07-13"
+  ],
+  "wix-bookings-request-choosing-a-specific-spot-in-a-class": [
+   "v",
+   "Wix Bookings",
+   "Choose a spot in a class",
+   "",
+   "2025-07-02"
+  ],
+  "wix-bookings-request-scheduling-appointments-with-processing-time": [
+   "v",
+   "Wix Bookings",
+   "Appointments with processing time",
+   "",
+   "2026-08-03"
+  ],
+  "wix-bookings-request-changing-the-purchase-flow-when-booking-with-a-plan": [
+   "v",
+   "Wix Bookings",
+   "Change the purchase flow when booking with a plan",
+   "",
+   "2026-05-18"
+  ],
+  "wix-bookings-request-applying-pricing-plans-for-recurring-sessions": [
+   "v",
+   "Wix Bookings",
+   "Use pricing plans for recurring sessions",
+   "",
+   "2026-05-18"
+  ],
+  "request-transferring-your-wix-bookings-app-from-one-site-to-another": [
+   "v",
+   "Wix Bookings",
+   "Move Wix Bookings to another site",
+   "",
+   "2025-07-13"
+  ],
+  "request-adding-a-conversion-pixel-to-the-wix-bookings-thank-you-page": [
+   "v",
+   "Wix Bookings",
+   "Conversion pixel on the thank you page",
+   "",
+   "2025-07-02"
+  ],
+  "bookings-request-customizing-booking-emails-with-automations-from-the-wix-owner-app": [
+   "v",
+   "Wix Bookings",
+   "Custom booking emails from the Wix app",
+   "",
+   "2025-07-02"
+  ],
+  "wix-bookings-request-connecting-google-meet-for-video-conferencing-with-wix-bookings": [
+   "r",
+   "Wix Bookings",
+   "Google Meet for online services",
+   "",
+   "2026-05-05"
+  ],
+  "wix-bookings-request-sending-abandoned-cart-notifications-to-your-clients": [
+   "r",
+   "Wix Bookings",
+   "Abandoned cart notifications",
+   "",
+   "2026-08-17"
+  ],
+  "wix-bookings-request-adding-different-types-of-fields-to-the-wix-booking-form": [
+   "r",
+   "Wix Bookings",
+   "More field types in booking forms",
+   "",
+   "2026-06-17"
+  ],
+  "wix-bookings-request-add-staff-view-to-wix-apps-calendar-views": [
+   "r",
+   "Wix Bookings",
+   "Staff view in the app calendar",
+   "",
+   "2026-06-29"
+  ],
+  "wix-bookings-request-adding-a-calendar-search-bar": [
+   "r",
+   "Wix Bookings",
+   "Calendar search bar",
+   "",
+   "2026-07-03"
+  ],
+  "wix-bookings-request-viewing-weekly-calendar-on-the-wix-owner-app": [
+   "r",
+   "Wix Bookings",
+   "Weekly calendar in the Wix app",
+   "",
+   "2026-06-29"
+  ],
+  "wix-bookings-request-setting-availability-per-service": [
+   "r",
+   "Wix Bookings",
+   "Availability per service",
+   "",
+   "2026-08-17"
+  ],
+  "wix-bookings-request-allowing-non-member-clients-to-cancel-bookings": [
+   "r",
+   "Wix Bookings",
+   "Non-members can cancel bookings",
+   "",
+   "2026-02-24"
+  ],
+  "ai-phone-agent-an-overview": [
+   "r",
+   "Wix Bookings",
+   "AI phone agent",
+   "",
+   "2026-09-07"
+  ],
+  "wix-pos-go-request-selling-bookings-appointments-with-the-wix-pos-go": [
+   "v",
+   "Wix POS",
+   "Sell appointments on POS Go",
+   "",
+   "2025-09-15"
+  ],
+  "wix-pos-register-request-integrating-with-wix-events": [
+   "v",
+   "Wix POS",
+   "Sell event tickets on POS Register",
+   "",
+   "2025-07-02"
+  ],
+  "wix-pricing-plans-request-categorizing-pricing-plans": [
+   "v",
+   "Pricing Plans",
+   "Group plans into categories",
+   "",
+   "2025-07-02"
+  ],
+  "wix-pricing-plans-request-creating-quantity-based-pricing-plans": [
+   "v",
+   "Pricing Plans",
+   "Quantity-based plans",
+   "",
+   "2025-07-02"
+  ],
+  "wix-pricing-plans-request-creating-multi-tiered-subscription-plans": [
+   "v",
+   "Pricing Plans",
+   "Multi-tier subscriptions",
+   "",
+   "2025-07-02"
+  ],
+  "pricing-plans-request-creating-recurring-plans-with-variable-pricing": [
+   "v",
+   "Pricing Plans",
+   "Recurring plans with changing prices",
+   "",
+   "2025-07-02"
+  ],
+  "wix-pricing-plans-request-creating-pricing-plans-based-on-number-of-sessions": [
+   "v",
+   "Pricing Plans",
+   "Plans based on number of sessions",
+   "",
+   "2025-07-02"
+  ],
+  "pricing-plans-request-plan-sharing": [
+   "v",
+   "Pricing Plans",
+   "Shared plans",
+   "",
+   "2025-07-02"
+  ],
+  "pricing-plans-request-purchasing-multiple-pricing-plans-together": [
+   "v",
+   "Pricing Plans",
+   "Buy several plans in one checkout",
+   "",
+   "2025-07-02"
+  ],
+  "wix-pricing-plans-request-offering-plans-with-multiple-billing-cycle-options": [
+   "v",
+   "Pricing Plans",
+   "Several billing cycles in one plan",
+   "",
+   "2026-04-01"
+  ],
+  "pricing-plans-request-allowing-clients-to-choose-their-payment-frequency": [
+   "v",
+   "Pricing Plans",
+   "Clients choose how often they pay",
+   "",
+   "2025-07-02"
+  ],
+  "wix-rentals-request-paying-for-rentals-with-pricing-plans": [
+   "v",
+   "Wix Rentals",
+   "Pay for rentals with a pricing plan",
+   "",
+   "2026-08-04"
+  ],
+  "request-creating-a-rental-site-with-wix": [
+   "r",
+   "Wix Rentals",
+   "Create a rental site",
+   "",
+   "2026-07-02"
+  ],
+  "wix-apps-request-app-for-offering-a-rental-service": [
+   "r",
+   "Wix Rentals",
+   "An app for rental services",
+   "",
+   "2026-07-02"
+  ],
+  "developer-request-supporting-sales-for-single-plans": [
+   "v",
+   "Developers",
+   "Sales on single-payment app plans",
+   "",
+   "2025-10-21"
+  ],
+  "developer-request-adding-support-for-comparing-draft-and-published-app-versions": [
+   "v",
+   "Developers",
+   "Compare draft and published app versions",
+   "",
+   "2026-03-26"
+  ],
+  "developer-request-adding-cli-support-for-astro-v6": [
+   "v",
+   "Developers",
+   "Wix CLI support for Astro v6",
+   "",
+   "2026-05-26"
+  ],
+  "developer-request-deleting-development-sites": [
+   "v",
+   "Developers",
+   "Delete development sites",
+   "",
+   "2025-10-21"
+  ],
+  "developer-request-embedding-the-media-manager-in-external-frontends": [
+   "v",
+   "Developers",
+   "Embed the Media Manager in external frontends",
+   "",
+   "2026-01-06"
+  ],
+  "developer-request-adding-custom-version-tags-for-site-publishing-and-reverting": [
+   "v",
+   "Developers",
+   "Custom version tags for publishing",
+   "",
+   "2025-07-02"
+  ],
+  "developer-request-migrating-an-existing-wix-site-to-a-wix-managed-headless-project": [
+   "r",
+   "Developers",
+   "Move an existing site to Wix-managed Headless",
+   "",
+   "2026-10-20"
+  ],
+  "developer-request-integrating-analytics-for-wix-headless": [
+   "r",
+   "Developers",
+   "Analytics for Wix Headless",
+   "",
+   "2026-09-24"
+  ],
+  "developer-request-free-text-search-for-cms-collections": [
+   "r",
+   "Developers",
+   "Free-text search in CMS collections",
+   "",
+   "2025-07-05"
+  ],
+  "wix-headless-request-rendering-rich-content-in-your-headless-projects": [
+   "r",
+   "Developers",
+   "Render rich content in Headless",
+   "",
+   "2025-07-02"
+  ],
+  "wix-blocks-request-scheduling-jobs-that-run-at-specified-intervals": [
+   "v",
+   "Wix Blocks",
+   "Scheduled jobs",
+   "",
+   "2025-07-02"
+  ],
+  "wix-blocks-request-get-an-installation-date-to-allow-free-trials": [
+   "v",
+   "Wix Blocks",
+   "Install date for free trials",
+   "",
+   "2025-07-02"
+  ],
+  "wix-blocks-request-building-panels-using-custom-elements": [
+   "v",
+   "Wix Blocks",
+   "Custom elements in panels",
+   "",
+   "2025-07-02"
+  ],
+  "wix-blocks-request-adding-an-upload-button-to-a-custom-panel": [
+   "v",
+   "Wix Blocks",
+   "Upload button in custom panels",
+   "",
+   "2025-07-02"
+  ],
+  "wix-blocks-request-pricing-premium-features-in-your-app-with-no-code": [
+   "v",
+   "Wix Blocks",
+   "No-code premium features",
+   "",
+   "2025-07-02"
+  ],
+  "wix-blocks-request-git-integration-and-wix-cli": [
+   "r",
+   "Wix Blocks",
+   "Git integration and Wix CLI",
+   "",
+   "2025-07-02"
+  ],
+  "wix-blocks-request-ai-code-assistant": [
+   "r",
+   "Wix Blocks",
+   "AI code assistant",
+   "",
+   "2025-07-02"
+  ],
+  "wix-blocks-request-creating-a-widget-with-ai": [
+   "r",
+   "Wix Blocks",
+   "Create widgets with AI",
+   "",
+   "2025-07-02"
+  ],
+  "wix-mobile-apps-request-allowing-customers-to-pre-order-products": [
+   "v",
+   "Mobile apps",
+   "Pre-orders in your own mobile app",
+   "",
+   "2025-07-02"
+  ],
+  "wix-mobile-apps-request-draft-mode-version-control": [
+   "v",
+   "Mobile apps",
+   "Drafts and version history for your app",
+   "",
+   "2025-07-02"
+  ],
+  "wix-video-request-editing-the-coming-soon-message": [
+   "v",
+   "Wix Video",
+   "Edit the ‘coming soon’ message",
+   "",
+   "2025-07-02"
+  ],
+  "wix-video-request-watch-later-list": [
+   "v",
+   "Wix Video",
+   "Watch later list",
+   "",
+   "2025-07-02"
+  ],
+  "wix-video-request-members-area-integration": [
+   "v",
+   "Wix Video",
+   "Members area for Wix Video",
+   "",
+   "2025-07-02"
+  ],
+  "wix-studio-request-tracking-submitted-feature-requests": [
+   "v",
+   "Wix Studio",
+   "Track your submitted feature requests",
+   "",
+   "2025-07-02"
+  ],
+  "studio-editor-request-adding-element-loading-indicators-preloading": [
+   "v",
+   "Wix Studio",
+   "Loading indicators for elements",
+   "",
+   "2025-07-02"
+  ],
+  "studio-editor-request-faster-generation-of-the-visual-sitemap-and-wireframes": [
+   "v",
+   "Wix Studio",
+   "Faster sitemap and wireframe generation",
+   "",
+   "2025-07-02"
+  ],
+  "studio-editor-request-adding-3d-models-and-elements": [
+   "v",
+   "Wix Studio",
+   "3D models and elements",
+   "",
+   "2025-07-02"
+  ],
+  "studio-editor-request-adding-menus-to-popups": [
+   "v",
+   "Wix Studio",
+   "Menus inside popups",
+   "",
+   "2025-11-04"
+  ],
+  "studio-editor-request-attaching-videoboxes-to-repeaters": [
+   "v",
+   "Wix Studio",
+   "Complex elements in static repeaters",
+   "",
+   "2025-09-04"
+  ],
+  "wix-studio-teaching-aria-about-your-agency": [
+   "r",
+   "Wix Studio",
+   "Agency AI brain for Aria",
+   "",
+   "2026-10-15"
+  ],
+  "wix-editor-request-adding-a-poll-to-your-site": [
+   "v",
+   "Wix Editor",
+   "Add a poll",
+   "",
+   "2025-07-02"
+  ],
+  "wix-editor-request-adding-a-survey-to-your-site": [
+   "v",
+   "Wix Editor",
+   "Add a survey",
+   "",
+   "2025-07-02"
+  ],
+  "wix-editor-request-adding-sounds-to-elements": [
+   "v",
+   "Wix Editor",
+   "Sounds on elements",
+   "",
+   "2025-07-02"
+  ],
+  "wix-editor-request-additional-mobile-only-elements": [
+   "v",
+   "Wix Editor",
+   "More mobile-only elements",
+   "",
+   "2025-07-02"
+  ],
+  "wix-editor-request-using-jquery-with-wix": [
+   "v",
+   "Wix Editor",
+   "Use jQuery",
+   "",
+   "2026-07-20"
+  ],
+  "wix-editor-request-video-chat": [
+   "v",
+   "Wix Editor",
+   "Video chat",
+   "",
+   "2025-07-02"
+  ],
+  "wix-editor-request-a-drop-down-feature-in-a-text-box": [
+   "v",
+   "Wix Editor",
+   "Dropdown inside a text box",
+   "",
+   "2025-07-02"
+  ],
+  "wix-editor-request-adding-a-pin-to-pinterest-button-to-gallery-images": [
+   "v",
+   "Wix Editor",
+   "‘Pin to Pinterest’ on gallery images",
+   "",
+   "2025-07-02"
+  ],
+  "wix-editor-request-adding-a-custom-favicon-in-the-wix-editor": [
+   "v",
+   "Wix Editor",
+   "Custom favicon for the editor tab",
+   "",
+   "2025-07-02"
+  ],
+  "wix-harmony-editor-feature-request-connecting-additional-element-types-to-your-collection-2": [
+   "v",
+   "Wix Harmony",
+   "Connect more element types to collections",
+   "",
+   "2026-10-02"
+  ],
+  "wix-harmony-editor-feature-request-using-wix-app-collections-including-wix-forms-collections-2": [
+   "v",
+   "Wix Harmony",
+   "Wix App collections in Harmony",
+   "",
+   "2026-10-02"
+  ],
+  "wix-harmony-editor-feature-request-collecting-content-with-input-elements-2": [
+   "v",
+   "Wix Harmony",
+   "Input elements that save to collections",
+   "",
+   "2026-10-02"
+  ],
+  "cms-request-enabling-repeatable-groups-of-fields-in-wix-cms": [
+   "v",
+   "CMS",
+   "Repeatable field groups (nested lists)",
+   "",
+   "2025-07-22"
+  ],
+  "cms-request-integrating-cms-collections-with-zapier": [
+   "v",
+   "CMS",
+   "Zapier integration for collections",
+   "",
+   "2025-07-02"
+  ],
+  "cms-request-using-collection-data-in-wix-automations": [
+   "r",
+   "CMS",
+   "Use collection data in automations",
+   "",
+   "2026-03-02"
+  ],
+  "cms-reviewing-edits-before-publishing-collection-items": [
+   "r",
+   "CMS",
+   "Save CMS edits as drafts before publishing",
+   "",
+   "2026-08-13"
+  ],
+  "cms-creating-page-variants-for-dynamic-pages": [
+   "r",
+   "CMS",
+   "Layout variants for dynamic item pages",
+   "",
+   "2026-06-01"
+  ],
+  "wix-forms-request-saving-form-progress": [
+   "v",
+   "Wix Forms",
+   "Save form progress",
+   "",
+   "2025-07-23"
+  ],
+  "wix-forms-request-connecting-fields-to-cms-datasets": [
+   "v",
+   "Wix Forms",
+   "Fill form choices from CMS collections",
+   "",
+   "2025-07-02"
+  ],
+  "wix-chat-request-email-chat-transcripts": [
+   "v",
+   "Chat & messaging",
+   "Email chat transcripts (Wix Chat)",
+   "",
+   "2026-05-19"
+  ],
+  "wix-smart-chat-request-emailing-chat-transcripts": [
+   "v",
+   "Chat & messaging",
+   "Email chat transcripts (Smart Chat)",
+   "",
+   "2026-06-17"
+  ],
+  "wix-sms-request-creating-sms-automations": [
+   "v",
+   "Chat & messaging",
+   "Custom messaging automations",
+   "",
+   "2026-02-04"
+  ],
+  "request-setting-automation-action-as-send-site-notification": [
+   "v",
+   "Automations",
+   "‘Send site notification’ action",
+   "",
+   "2025-07-02"
+  ],
+  "facebook-ads-request-transferring-a-campaign-to-another-site": [
+   "v",
+   "Marketing",
+   "Move a Facebook Ads campaign to another site",
+   "",
+   "2026-02-14"
+  ],
+  "google-ads-with-wix-request-running-image-campaigns": [
+   "r",
+   "Marketing",
+   "Image campaigns in Google Ads",
+   "",
+   "2026-04-16"
+  ],
+  "email-marketing-request": [
+   "r",
+   "Marketing",
+   "AI assistant for email campaigns",
+   "",
+   "2026-02-09"
+  ],
+  "email-marketing-request-scheduling-the-resend-to-unopened-option": [
+   "r",
+   "Marketing",
+   "Schedule ‘Resend to Unopened’",
+   "",
+   "2026-10-18"
+  ],
+  "wix-multilingual-optimizing-seo-settings-for-multilingual-sites": [
+   "r",
+   "Wix Multilingual",
+   "Translated URL slugs per language",
+   "",
+   "2026-07-22"
+  ],
+  "wix-analytics-about-your-online-programs-reports": [
+   "r",
+   "Analytics",
+   "Analytics reports for Online Programs",
+   "",
+   "2026-08-17"
+  ],
+  "wix-hotels-by-hotelrunner-request-assigning-and-tracking-room-tasks": [
+   "v",
+   "Wix Hotels",
+   "Assign and track room tasks",
+   "",
+   "2025-08-05"
+  ],
+  "wix-restaurants-request-managing-your-reservations-waitlist": [
+   "v",
+   "Wix Restaurants",
+   "Reservations waitlist",
+   "",
+   "2026-05-15"
+  ],
+  "wix-restaurants-request-requiring-advanced-ordering-for-certain-menu-items": [
+   "v",
+   "Wix Restaurants",
+   "Advance ordering for certain dishes",
+   "",
+   "2026-02-06"
+  ],
+  "wix-restaurants-request-allowing-customers-to-search-sort-and-add-items-when-ordering-online": [
+   "v",
+   "Wix Restaurants",
+   "Search and sort menu items",
+   "",
+   "2026-02-06"
+  ],
+  "wix-restaurants-request-separating-online-ordering-menus-into-pages": [
+   "v",
+   "Wix Restaurants",
+   "Split long ordering menus into pages",
+   "",
+   "2025-07-06"
+  ],
+  "wix-restaurants-request-setting-up-contactless-dine-in": [
+   "v",
+   "Wix Restaurants",
+   "Contactless dine-in",
+   "",
+   "2025-10-21"
+  ],
+  "wix-restaurants-request-customizing-the-item-details-in-online-orders": [
+   "v",
+   "Wix Restaurants",
+   "Customize the item details pop-up",
+   "",
+   "2026-02-06"
+  ],
+  "wix-restaurants-request-showing-a-mobile-layout-with-item-image-and-add-to-cart-button": [
+   "v",
+   "Wix Restaurants",
+   "Compact mobile menu layout",
+   "",
+   "2026-02-06"
+  ],
+  "wix-restaurants-request-supporting-mixed-cart-orders": [
+   "v",
+   "Wix Restaurants",
+   "Order from several menus in one cart",
+   "",
+   "2026-02-06"
+  ],
+  "wix-restaurants-request-integrating-wix-table-reservations-with-wix-members-area": [
+   "v",
+   "Wix Restaurants",
+   "Reservations in the members area",
+   "",
+   "2026-05-15"
+  ],
+  "wix-restaurants-request-displaying-your-menus-on-the-wix-mobile-apps": [
+   "r",
+   "Wix Restaurants",
+   "Menus and ordering in Wix mobile apps",
+   "",
+   "2026-03-02"
+  ],
+  "wix-table-reservations-creating-an-experience": [
+   "r",
+   "Wix Restaurants",
+   "Table assignment for Experiences",
+   "",
+   "2026-09-08"
+  ],
+  "wix-restaurants-creating-another-online-ordering-page": [
+   "r",
+   "Wix Restaurants",
+   "Up to 5 online ordering pages",
+   "",
+   "2026-08-09"
+  ],
+  "customizing-your-pages-seo-settings-in-the-seo-panel": [
+   "r",
+   "Wix Restaurants",
+   "SEO settings for each Experience",
+   "",
+   "2026-05-11"
+  ],
+  "request-moderating-files-before-they-appear-in-the-app": [
+   "v",
+   "File Share",
+   "Approve files before they appear",
+   "",
+   "2025-07-02"
+  ],
+  "wix-blog-request-importing-blog-posts-from-blogger-to-wix": [
+   "v",
+   "Wix Blog",
+   "Import posts from Blogger",
+   "",
+   "2025-07-02"
+  ],
+  "wix-blog-request-importing-blog-posts-from-squarespace-to-wix": [
+   "v",
+   "Wix Blog",
+   "Import posts from Squarespace",
+   "",
+   "2025-07-02"
+  ],
+  "wix-blog-request-importing-blog-posts-from-hubspot-to-wix": [
+   "v",
+   "Wix Blog",
+   "Import posts from HubSpot",
+   "",
+   "2025-07-02"
+  ],
+  "wix-blog-request-importing-blog-posts-from-medium-to-wix": [
+   "v",
+   "Wix Blog",
+   "Import posts from Medium",
+   "",
+   "2025-07-02"
+  ],
+  "wix-blog-request-exporting-blog-posts-to-other-platforms": [
+   "v",
+   "Wix Blog",
+   "Export posts to other platforms",
+   "",
+   "2025-07-02"
+  ],
+  "request-adding-a-form-to-a-blog-post-in-the-new-wix-blog": [
+   "v",
+   "Wix Blog",
+   "Add a form inside a post",
+   "",
+   "2025-10-20"
+  ],
+  "wix-blog-request-additional-social-share-options-on-blog-posts": [
+   "v",
+   "Wix Blog",
+   "More social share options",
+   "",
+   "2025-07-02"
+  ],
+  "wix-blog-request-sharing-posts-directly-from-your-site-to-instagram": [
+   "v",
+   "Wix Blog",
+   "Share posts to Instagram",
+   "",
+   "2025-07-02"
+  ],
+  "wix-blog-request-allowing-visitors-to-purchase-a-single-blog-post": [
+   "v",
+   "Wix Blog",
+   "Sell a single blog post",
+   "",
+   "2025-07-02"
+  ],
+  "wix-blog-request-changing-the-position-of-elements-on-your-blog-post-page": [
+   "v",
+   "Wix Blog",
+   "Rearrange post page elements",
+   "",
+   "2025-07-02"
+  ],
+  "wix-blog-request-restricting-certain-blog-posts-to-members-only": [
+   "v",
+   "Wix Blog",
+   "Members-only parts of a post",
+   "",
+   "2026-06-03"
+  ],
+  "wix-blog-request-advanced-post-page-design-settings": [
+   "v",
+   "Wix Blog",
+   "Advanced post page design",
+   "",
+   "2025-07-02"
+  ],
+  "wix-blog-request-adding-a-read-more-button-to-your-blog-feed": [
+   "v",
+   "Wix Blog",
+   "‘Read more’ button in the feed",
+   "",
+   "2025-07-02"
+  ],
+  "wix-blog-request-adding-a-table-of-contents-to-a-blog-post": [
+   "v",
+   "Wix Blog",
+   "Table of contents in posts",
+   "",
+   "2025-07-02"
+  ],
+  "wix-blog-request-customize-blog-post-urls-to-match-the-main-blog-url": [
+   "v",
+   "Wix Blog",
+   "Post URLs that match the blog URL",
+   "",
+   "2026-03-05"
+  ],
+  "wix-events-request-changing-an-rsvp-event-to-a-ticketed-event": [
+   "v",
+   "Wix Events",
+   "Change an RSVP event to ticketed",
+   "",
+   "2025-07-02"
+  ],
+  "wix-events-request-waitlists-for-ticketed-events": [
+   "v",
+   "Wix Events",
+   "Waitlists for ticketed events",
+   "",
+   "2025-07-02"
+  ],
+  "wix-events-request-setting-a-ticket-limit-per-event": [
+   "v",
+   "Wix Events",
+   "Overall ticket limit per event",
+   "",
+   "2025-07-02"
+  ],
+  "wix-events-request-refunding-ticket-purchases": [
+   "v",
+   "Wix Events",
+   "Refund tickets from Wix Events",
+   "",
+   "2025-07-02"
+  ],
+  "wix-events-request-showing-different-registration-questions-based-on-ticket-type": [
+   "v",
+   "Wix Events",
+   "Different questions per ticket type",
+   "",
+   "2025-07-02"
+  ],
+  "wix-events-customizing-event-registration-form-per-ticket-type": [
+   "v",
+   "Wix Events",
+   "Registration forms per ticket type",
+   "",
+   "2025-07-13"
+  ],
+  "wix-events-request-creating-event-tickets-using-add-ons": [
+   "v",
+   "Wix Events",
+   "Ticket add-ons",
+   "",
+   "2025-07-13"
+  ],
+  "wix-events-request-skipping-the-event-details-page-when-purchasing-a-ticket": [
+   "v",
+   "Wix Events",
+   "Skip the event details page",
+   "",
+   "2025-07-02"
+  ],
+  "wix-events-request-allowing-guests-to-upgrade-their-ticket-type": [
+   "v",
+   "Wix Events",
+   "Upgrade a ticket after purchase",
+   "",
+   "2025-07-02"
+  ],
+  "wix-events-request-creating-hidden-tickets-through-special-links-or-promo-codes": [
+   "v",
+   "Wix Events",
+   "Hidden tickets via links or promo codes",
+   "",
+   "2025-07-02"
+  ],
+  "wix-events-request-transferring-tickets-between-events": [
+   "v",
+   "Wix Events",
+   "Move tickets between events",
+   "",
+   "2025-07-02"
+  ],
+  "wix-events-request-waiving-the-ticket-service-fee-for-non-profits": [
+   "v",
+   "Wix Events",
+   "No ticket service fee for non-profits",
+   "",
+   "2025-07-13"
+  ],
+  "wix-events-request-allowing-members-to-create-events": [
+   "v",
+   "Wix Events",
+   "Members create events",
+   "",
+   "2025-07-02"
+  ],
+  "wix-events-request-allowing-site-members-to-save-events": [
+   "v",
+   "Wix Events",
+   "Members save events",
+   "",
+   "2025-07-02"
+  ],
+  "wix-online-programs-request-creating-a-bundle-of-online-programs": [
+   "v",
+   "Online Programs",
+   "Program bundles",
+   "",
+   "2025-08-01"
+  ],
+  "wix-online-programs-request-creating-automatic-discounts": [
+   "v",
+   "Online Programs",
+   "Sale prices for programs",
+   "",
+   "2025-07-08"
+  ],
+  "online-programs-request-automatically-creating-a-group-for-your-program-participants": [
+   "v",
+   "Online Programs",
+   "Automatic group for participants",
+   "",
+   "2025-07-08"
+  ],
+  "online-programs-request-automatically-adding-participants-to-a-program": [
+   "r",
+   "Online Programs",
+   "Add participants when they buy a plan",
+   "",
+   "2025-07-02"
+  ],
+  "wix-groups-request-allowing-members-to-save-posts": [
+   "v",
+   "Wix Groups",
+   "Save group posts",
+   "",
+   "2025-07-02"
+  ],
+  "wix-groups-request-automatically-creating-a-chat-for-group-members": [
+   "v",
+   "Wix Groups",
+   "Automatic group chat",
+   "",
+   "2025-07-02"
+  ],
+  "wix-groups-request-allowing-site-members-to-monetize-their-groups-with-pricing-plans": [
+   "v",
+   "Wix Groups",
+   "Members monetize their groups",
+   "",
+   "2025-07-02"
+  ],
+  "wix-groups-request-making-groups-posts-and-pages-public-in-member-profiles": [
+   "v",
+   "Wix Groups",
+   "Public group posts on profiles",
+   "",
+   "2025-07-23"
+  ],
+  "wix-groups-request-removing-the-groups-search-from-group-pages": [
+   "v",
+   "Wix Groups",
+   "Hide the groups search bar",
+   "",
+   "2025-07-02"
+  ],
+  "wix-groups-request-adding-a-moderation-tool-for-posts-approval": [
+   "v",
+   "Wix Groups",
+   "Approve posts before they appear",
+   "",
+   "2025-07-02"
+  ],
+  "wix-groups-request-scheduling-your-posts": [
+   "r",
+   "Wix Groups",
+   "Schedule group posts",
+   "",
+   "2026-04-27"
+  ],
+  "wix-price-quotes-request-integrating-price-quotes-with-wix-stores": [
+   "v",
+   "Invoices & Quotes",
+   "Price Quotes with Wix Stores",
+   "",
+   "2025-07-02"
+  ],
+  "wix-invoices-price-quotes-request-creating-a-member-page-for-invoices-and-price-quotes": [
+   "v",
+   "Invoices & Quotes",
+   "Member page for invoices and quotes",
+   "",
+   "2025-07-02"
+  ],
+  "wix-price-quotes-request-customizing-the-design-of-your-price-quotes": [
+   "v",
+   "Invoices & Quotes",
+   "Design your price quotes",
+   "",
+   "2025-10-09"
+  ],
+  "wix-invoices-request-adding-pricing-plan-services-to-your-invoices-automatically": [
+   "v",
+   "Invoices & Quotes",
+   "Add plan services to invoices automatically",
+   "",
+   "2025-07-02"
+  ],
+  "wix-invoices-request-creating-invoices-for-digital-products-and-product-subscriptions": [
+   "v",
+   "Invoices & Quotes",
+   "Invoices for digital products and subscriptions",
+   "",
+   "2026-04-01"
+  ],
+  "request-creating-a-price-quote-with-wix-automations": [
+   "v",
+   "Automations",
+   "Create a price quote with automations",
+   "",
+   "2025-07-02"
+  ],
+  "request-creating-an-invoice-with-wix-automations": [
+   "v",
+   "Automations",
+   "Create an invoice with automations",
+   "",
+   "2025-07-02"
+  ],
+  "wix-stores-request-selling-product-subscriptions-in-the-wix-owner-app": [
+   "v",
+   "Wix Stores",
+   "Sell product subscriptions in the Wix app",
+   "",
+   "2025-07-02"
+  ],
+  "wix-stores-request-creating-subscriptions-for-digital-products": [
+   "v",
+   "Wix Stores",
+   "Subscriptions for digital products",
+   "",
+   "2025-12-02"
+  ],
+  "wix-stores-request-customizing-product-subscriptions-with-velo": [
+   "v",
+   "Wix Stores",
+   "Customize product subscriptions with Velo",
+   "",
+   "2025-12-02"
+  ],
+  "wix-stores-request-prepaid-product-subscriptions": [
+   "v",
+   "Wix Stores",
+   "Prepaid subscriptions",
+   "",
+   "2025-12-02"
+  ],
+  "wix-stores-request-creating-coupons-for-first-time-customers": [
+   "v",
+   "Wix Stores",
+   "Coupons for first-time customers",
+   "",
+   "2025-07-02"
+  ],
+  "wix-stores-request-creating-custom-triggers-for-coupons": [
+   "v",
+   "Wix Stores",
+   "Custom coupon triggers",
+   "",
+   "2025-07-03"
+  ],
+  "wix-stores-request-creating-an-automatic-category-index": [
+   "v",
+   "Wix Stores",
+   "Automatic category index page",
+   "",
+   "2025-07-02"
+  ],
+  "wix-stores-request-adding-a-donation-form-to-the-cart": [
+   "v",
+   "Wix Stores",
+   "Donation form in the cart",
+   "",
+   "2025-07-02"
+  ],
+  "wix-stores-request-applying-coupons-to-the-first-cycles-of-a-subscription": [
+   "r",
+   "Wix Stores",
+   "Coupons for the first subscription cycles",
+   "",
+   "2026-02-25"
+  ],
+  "wix-apps-request-subscription-promotions": [
+   "v",
+   "Marketing",
+   "Subscription promotions in Wix Promos",
+   "",
+   "2025-07-02"
+  ],
+  "wix-stores-pos-request-selling-product-subscriptions": [
+   "v",
+   "Wix POS",
+   "Sell product subscriptions on mobile POS",
+   "",
+   "2025-09-25"
+  ],
+  "wix-pos-register-request-selling-product-subscriptions": [
+   "v",
+   "Wix POS",
+   "Sell product subscriptions on POS Register",
+   "",
+   "2026-08-05"
+  ],
+  "wix-mobile-pos-request-accepting-coupons-for-pricing-plans-sales-at-a-mobile-pos": [
+   "v",
+   "Wix POS",
+   "Coupons for plan sales on mobile POS",
+   "",
+   "2025-09-25"
+  ],
+  "developer-request-retrieving-orders-by-coupon-code": [
+   "v",
+   "Developers",
+   "Find orders by coupon code",
+   "",
+   "2025-10-21"
+  ],
+  "wix-events-request-adding-a-subscription-field-when-guests-checkout": [
+   "v",
+   "Wix Events",
+   "Subscribe checkbox at event checkout",
+   "",
+   "2025-07-02"
+  ],
+  "wix-donations-request-customized-form-fields-in-campaigns": [
+   "v",
+   "Wix Donations",
+   "Custom fields in donation forms",
+   "",
+   "2025-07-02"
+  ],
+  "wix-donations-request-adding-a-donors-wall": [
+   "v",
+   "Wix Donations",
+   "Donors wall",
+   "",
+   "2025-07-02"
+  ],
+  "donations-request-allowing-donation-designation": [
+   "v",
+   "Wix Donations",
+   "Let donors choose where money goes",
+   "",
+   "2025-07-02"
+  ],
+  "wix-mobile-apps-request-adding-a-donation-element-to-your-app": [
+   "v",
+   "Mobile apps",
+   "Donation element in your app",
+   "",
+   "2025-07-02"
+  ],
+  "request-accepting-credit-card-donations-on-your-site-with-wix-payments": [
+   "r",
+   "Payments & tax",
+   "Credit card donations with Wix Payments",
+   "",
+   "2025-07-02"
+  ],
+  "wix-audio-request-adding-mixcloud-to-wix-music": [
+   "v",
+   "Wix Music",
+   "Mixcloud in Wix Music",
+   "",
+   "2025-07-02"
+  ],
+  "wix-audio-request-adding-additional-payment-options-for-wix-music": [
+   "v",
+   "Wix Music",
+   "More payment options for music sales",
+   "",
+   "2025-07-02"
+  ],
+  "studio-editor-request-adding-wix-music": [
+   "v",
+   "Wix Studio",
+   "Wix Music in the Studio Editor",
+   "",
+   "2025-07-02"
+  ],
+  "wix-portfolio-request-uploading-additional-media-types-to-your-portfolio": [
+   "v",
+   "Wix Portfolio",
+   "More media types in portfolios",
+   "",
+   "2025-07-02"
+  ],
+  "request-creating-a-classified-ads-site": [
+   "v",
+   "Templates & site types",
+   "Classified ads site",
+   "",
+   "2026-02-18"
+  ],
+  "request-new-wix-templates": [
+   "v",
+   "Templates & site types",
+   "New templates",
+   "",
+   "2026-02-13"
+  ],
+  "request-mixcloud-app": [
+   "v",
+   "Third-party apps",
+   "Mixcloud app",
+   "",
+   "2025-07-02"
+  ],
+  "request-adding-wufoo-online-forms": [
+   "v",
+   "Third-party apps",
+   "Wufoo forms app",
+   "",
+   "2025-07-02"
+  ],
+  "request-adobe-analytics": [
+   "v",
+   "Analytics",
+   "Adobe Analytics integration",
+   "",
+   "2025-07-02"
+  ],
+  "request-crazy-egg-app": [
+   "v",
+   "Analytics",
+   "Crazy Egg app",
+   "",
+   "2025-07-02"
+  ],
+  "request-disabling-your-dashboard-analytics": [
+   "v",
+   "Analytics",
+   "Turn off dashboard analytics",
+   "",
+   "2025-07-02"
+  ],
+  "request-tracking-data-from-custom-fields-in-wix-analytics-reports": [
+   "v",
+   "Analytics",
+   "Report on custom form fields",
+   "",
+   "2026-10-02"
+  ],
+  "request-connecting-a-pec-business-email-to-wix": [
+   "v",
+   "Business email",
+   "Connect a PEC business email",
+   "",
+   "2026-02-12"
+  ],
+  "wix-groups-request-creating-categories-in-your-groups": [
+   "v",
+   "Wix Groups",
+   "Categories inside a group",
+   "",
+   "2025-07-02"
+  ],
+  "wix-groups-request-allowing-members-to-create-new-feed-topics": [
+   "v",
+   "Wix Groups",
+   "Members create feed topics",
+   "",
+   "2025-07-02"
+  ],
+  "wix-blog-request-creating-subcategories-in-wix-blog": [
+   "v",
+   "Wix Blog",
+   "Blog subcategories",
+   "",
+   "2025-09-24"
+  ],
+  "wix-blog-request-additional-sorting-options-on-the-blogcategory-feed-and-post-list": [
+   "v",
+   "Wix Blog",
+   "More ways to sort posts",
+   "",
+   "2025-07-02"
+  ],
+  "wix-blog-request-selecting-which-categories-are-displayed-in-the-blog-menu": [
+   "v",
+   "Wix Blog",
+   "Choose which categories show in the menu",
+   "",
+   "2025-07-02"
+  ],
+  "wix-blog-request-increasing-the-amount-of-categories-visible-in-the-dashboard": [
+   "v",
+   "Wix Blog",
+   "More categories in the dashboard",
+   "",
+   "2025-07-02"
+  ],
+  "wix-video-request-changing-the-order-of-categories-in-wix-video": [
+   "v",
+   "Wix Video",
+   "Reorder video categories",
+   "",
+   "2025-07-02"
+  ],
+  "wix-smart-chat-request-allowing-members-to-chat-with-each-other-using-members-chat": [
+   "v",
+   "Chat & messaging",
+   "Members chat in Smart Chat",
+   "",
+   "2026-05-11"
+  ],
+  "wix-harmony-editor-feature-request-creating-category-collections-2": [
+   "v",
+   "Wix Harmony",
+   "Category collections in Harmony",
+   "",
+   "2026-10-02"
+  ],
+  "wix-multilingual-request-using-machine-translation-services-to-translate-your-site": [
+   "v",
+   "Wix Multilingual",
+   "Use other machine translation services",
+   "",
+   "2025-07-02"
+  ],
+  "wix-multilingual-request-translating-wix-invoices": [
+   "v",
+   "Wix Multilingual",
+   "Translate Wix Invoices",
+   "",
+   "2026-05-10"
+  ],
+  "wix-multilingual-request-translating-wix-loyalty-program": [
+   "v",
+   "Wix Multilingual",
+   "Translate the Loyalty Program",
+   "",
+   "2025-07-02"
+  ],
+  "wix-multilingual-request-using-the-wix-app-with-wix-multilingual": [
+   "v",
+   "Wix Multilingual",
+   "Multilingual in the Wix app",
+   "",
+   "2025-07-02"
+  ],
+  "wix-bookings-request-use-wix-multilingual-to-display-translated-content-in-the-member-apps": [
+   "v",
+   "Wix Multilingual",
+   "Translated bookings in member apps",
+   "",
+   "2025-07-02"
+  ],
+  "wix-groups-request-changing-the-language-of-the-groups-app": [
+   "v",
+   "Wix Multilingual",
+   "Translate Wix Groups",
+   "",
+   "2025-07-02"
+  ],
+  "wix-multilingual-request-translating-wix-email-marketing-campaigns": [
+   "v",
+   "Wix Multilingual",
+   "Translate email campaigns",
+   "",
+   "2026-05-10"
+  ],
+  "wix-multilingual-request-translating-third-party-apps-with-wix-multilingual": [
+   "v",
+   "Wix Multilingual",
+   "Translate third-party apps",
+   "",
+   "2025-07-02"
+  ],
+  "wix-multilingual-request-translating-wix-photo-albums": [
+   "v",
+   "Wix Multilingual",
+   "Translate Photo Albums",
+   "",
+   "2025-07-02"
+  ],
+  "wix-multilingual-request-using-wix-site-search-with-wix-multilingual": [
+   "v",
+   "Wix Multilingual",
+   "Site search on multilingual sites",
+   "",
+   "2026-02-03"
+  ],
+  "wix-multilingual-request-translating-google-maps": [
+   "v",
+   "Wix Multilingual",
+   "Translate Google Maps",
+   "",
+   "2025-07-02"
+  ],
+  "wix-multilingual-request-using-wix-multilingual-on-the-spaces-by-wix-app": [
+   "v",
+   "Wix Multilingual",
+   "Multilingual in Spaces by Wix",
+   "",
+   "2025-07-02"
+  ],
+  "wix-multilingual-request-using-wix-multilingual-in-the-wix-harmony-editor": [
+   "v",
+   "Wix Multilingual",
+   "Multilingual in the Harmony Editor",
+   "",
+   "2026-07-21"
+  ],
+  "wix-multilingual-request-translating-product-subscriptions-in-wix-stores": [
+   "v",
+   "Wix Multilingual",
+   "Translate product subscriptions",
+   "",
+   "2025-07-02"
+  ],
+  "wix-hotels-by-hotelrunner-request-using-wix-multilingual": [
+   "r",
+   "Wix Hotels",
+   "Multilingual for Wix Hotels",
+   "",
+   "2026-02-03"
+  ],
+  "request-additional-languages-in-wix-hotels": [
+   "r",
+   "Wix Hotels",
+   "More languages for Wix Hotels",
+   "",
+   "2026-01-14"
+  ],
+  "studio-editor-request-setting-the-primary-breakpoint": [
+   "v",
+   "Wix Studio",
+   "Choose the primary breakpoint",
+   "",
+   "2025-07-02"
+  ],
+  "studio-editor-request-setting-site-styles-per-breakpoint": [
+   "v",
+   "Wix Studio",
+   "Site styles per breakpoint",
+   "",
+   "2025-07-02"
+  ],
+  "studio-editor-request-adjusting-breakpoints-for-screen-orientations": [
+   "v",
+   "Wix Studio",
+   "Portrait and landscape breakpoints",
+   "",
+   "2025-07-02"
+  ],
+  "studio-editor-request-adjusting-a-chatbox-for-different-breakpoints": [
+   "v",
+   "Wix Studio",
+   "Chatbox settings per breakpoint",
+   "",
+   "2025-07-02"
+  ],
+  "studio-editor-request-applying-breakpoints-to-multiple-pages-at-once": [
+   "v",
+   "Wix Studio",
+   "Apply breakpoints to many pages at once",
+   "",
+   "2025-07-02"
+  ],
+  "studio-editor-request-creating-breakpoints-that-apply-to-the-entire-site": [
+   "v",
+   "Wix Studio",
+   "Site-wide default breakpoints",
+   "",
+   "2025-07-02"
+  ],
+  "studio-editor-request-setting-the-videoboxs-corner-radius-per-breakpoint": [
+   "v",
+   "Wix Studio",
+   "VideoBox corner radius per breakpoint",
+   "",
+   "2025-12-25"
+  ],
+  "studio-editor-request-setting-a-global-section-to-appear-on-specific-breakpoints": [
+   "v",
+   "Wix Studio",
+   "Global sections on chosen breakpoints only",
+   "",
+   "2025-07-02"
+  ],
+  "sales-tax-request-multiple-tax-rates-for-shipping": [
+   "v",
+   "Payments & tax",
+   "Different tax rates on shipping",
+   "",
+   "2025-10-31"
+  ],
+  "wix-stores-request-additional-real-time-shipping-carriers": [
+   "v",
+   "Wix Stores",
+   "More real-time shipping carriers",
+   "",
+   "2026-02-02"
+  ],
+  "wix-stores-request-creating-shipping-rules-based-on-product-dimensions": [
+   "v",
+   "Wix Stores",
+   "Shipping rules by product size",
+   "",
+   "2026-02-02"
+  ],
+  "wix-stores-request-verifying-shipping-addresses": [
+   "v",
+   "Wix Stores",
+   "Verify shipping addresses",
+   "",
+   "2026-02-02"
+  ],
+  "wix-stores-request-integrating-with-the-australia-post-shipping-solution": [
+   "v",
+   "Wix Stores",
+   "Australia Post integration",
+   "",
+   "2026-03-11"
+  ],
+  "wix-stores-request-integrating-with-the-shipco-shipping-solution": [
+   "v",
+   "Wix Stores",
+   "Ship&co integration",
+   "",
+   "2026-02-02"
+  ],
+  "wix-stores-request-integrating-with-the-nova-poshta-shipping-solution": [
+   "v",
+   "Wix Stores",
+   "Nova Poshta integration",
+   "",
+   "2026-02-02"
+  ],
+  "wix-stores-request-combining-weight-based-and-price-based-shipping-rules": [
+   "v",
+   "Wix Stores",
+   "Combine weight and price shipping rules",
+   "",
+   "2026-02-02"
+  ],
+  "wix-stores-request-additional-shipping-options-for-google-merchant-solutions": [
+   "v",
+   "Wix Stores",
+   "More shipping options for Google Merchant",
+   "",
+   "2025-07-02"
+  ],
+  "wix-stores-request-removing-the-shipping-option-from-wix-stores": [
+   "v",
+   "Wix Stores",
+   "Turn off shipping completely",
+   "",
+   "2026-02-02"
+  ],
+  "wix-stores-request-varying-product-prices-by-countries": [
+   "v",
+   "Wix Stores",
+   "Prices that vary by country",
+   "",
+   "2025-12-02"
+  ],
+  "wix-stores-request-displaying-prices-with-and-without-sales-tax": [
+   "v",
+   "Wix Stores",
+   "Show prices with and without tax",
+   "",
+   "2025-12-02"
+  ],
+  "wix-stores-request-product-pricing-per-weight-or-size": [
+   "v",
+   "Wix Stores",
+   "Price per weight or size",
+   "",
+   "2025-12-02"
+  ],
+  "wix-stores-request-adding-fields-to-the-review-form": [
+   "v",
+   "Wix Stores",
+   "Custom fields in the review form",
+   "",
+   "2025-07-02"
+  ],
+  "pricing-plans-request-customizing-tax-variables": [
+   "v",
+   "Pricing Plans",
+   "Custom tax rules for plans",
+   "",
+   "2025-07-02"
+  ],
+  "wix-bookings-request-creating-multiple-schedules-for-a-course": [
+   "v",
+   "Wix Bookings",
+   "Several schedules within one course",
+   "",
+   "2025-07-02"
+  ],
+  "wix-bookings-request-filtering-by-session-availability-on-your-owner-app-calendar": [
+   "v",
+   "Wix Bookings",
+   "Filter the app calendar by availability",
+   "",
+   "2025-07-02"
+  ],
+  "wix-bookings-request-allowing-clients-to-schedule-recurring-class-sessions-and-appointments": [
+   "v",
+   "Wix Bookings",
+   "Clients book recurring sessions online",
+   "",
+   "2025-07-13"
+  ],
+  "wix-bookings-request-allowing-clients-to-schedule-recurring-classes-and-appointments-on-the-member-apps": [
+   "v",
+   "Wix Bookings",
+   "Recurring bookings in member apps",
+   "",
+   "2025-07-02"
+  ],
+  "wix-bookings-request-allowing-clients-to-book-multiple-recurring-classes-at-the-same-time": [
+   "v",
+   "Wix Bookings",
+   "Book several recurring classes at once",
+   "",
+   "2025-07-02"
+  ],
+  "wix-bookings-request-preventing-duplicate-session-bookings-by-a-single-client": [
+   "v",
+   "Wix Bookings",
+   "Stop duplicate bookings",
+   "",
+   "2025-07-13"
+  ],
+  "wix-bookings-request-allowing-clients-to-book-sessions-with-multiple-staff-members": [
+   "v",
+   "Wix Bookings",
+   "Sessions with more than one staff member",
+   "",
+   "2025-07-13"
+  ],
+  "wix-bookings-request-adding-class-and-course-sessions-to-a-new-order": [
+   "v",
+   "Wix Bookings",
+   "Add classes and courses to manual orders",
+   "",
+   "2025-07-13"
+  ],
+  "wix-bookings-request-staff-scheduling-options": [
+   "v",
+   "Wix Bookings",
+   "Separate staff hours for new clients",
+   "",
+   "2025-07-13"
+  ],
+  "wix-bookings-request-adding-participants-to-recurring-class-sessions-from-the-wix-owner-app": [
+   "v",
+   "Wix Bookings",
+   "Add people to recurring classes in the app",
+   "",
+   "2025-07-02"
+  ],
+  "wix-bookings-request-creating-a-booking-form-on-the-wix-owner-app": [
+   "v",
+   "Wix Bookings",
+   "Booking forms in the Wix app",
+   "",
+   "2025-07-02"
+  ],
+  "wix-bookings-request-allowing-site-members-to-add-themselves-to-an-appointment-waitlist-on-the-member-apps": [
+   "v",
+   "Wix Bookings",
+   "Join appointment waitlists from member apps",
+   "",
+   "2025-10-28"
+  ],
+  "wix-bookings-pos-request-booking-and-accepting-payments-for-courses-with-the-wix-app": [
+   "v",
+   "Wix POS",
+   "Courses on mobile POS",
+   "",
+   "2025-09-23"
+  ],
+  "wix-pos-register-request-bookings-courses": [
+   "v",
+   "Wix POS",
+   "Courses on POS Register",
+   "",
+   "2025-07-02"
+  ],
+  "wix-pos-register-request-bookings-sessions-for-wix-bookings-classes": [
+   "v",
+   "Wix POS",
+   "Classes on POS Register",
+   "",
+   "2025-07-02"
+  ],
+  "wix-editor-request-using-the-editor-in-dark-mode": [
+   "v",
+   "Wix Editor",
+   "Dark mode for the editor",
+   "",
+   "2025-07-02"
+  ],
+  "wix-editor-request-responsive-sites": [
+   "v",
+   "Wix Editor",
+   "Fully responsive Wix Editor",
+   "",
+   "2026-07-20"
+  ],
+  "wix-editor-request-exporting-designs-from-figma": [
+   "v",
+   "Wix Editor",
+   "Import Figma designs",
+   "",
+   "2025-07-02"
+  ],
+  "wix-editor-request-scroll-bar-on-videos": [
+   "v",
+   "Wix Editor",
+   "Scroll bar on videos",
+   "",
+   "2025-07-02"
+  ],
+  "wix-editor-request-uploading-xml-files": [
+   "v",
+   "Wix Editor",
+   "Upload XML files",
+   "",
+   "2025-07-02"
+  ],
+  "studio-editor-request-switching-to-wix-editor": [
+   "v",
+   "Wix Studio",
+   "Switch a Studio site to the Wix Editor",
+   "",
+   "2025-07-02"
+  ],
+  "wix-blocks-request-exporting-a-component-built-on-the-editor-to-blocks": [
+   "v",
+   "Wix Blocks",
+   "Export editor components to Blocks",
+   "",
+   "2025-07-02"
+  ],
+  "wix-app-request-editing-your-site-using-the-wix-app": [
+   "v",
+   "Wix app",
+   "Edit your site in the Wix app",
+   "",
+   "2025-07-02"
+  ],
+  "wix-logo-request-feedback-tool-in-the-wix-logo-maker": [
+   "v",
+   "Wix Logo",
+   "Feedback tool in the Logo Maker",
+   "",
+   "2026-02-03"
+  ],
+  "studio-editor-request-adding-a-signature-field-to-a-form": [
+   "r",
+   "Wix Studio",
+   "Signature field in forms",
+   "",
+   "2025-07-02"
+  ],
+  "wix-events-request-limiting-event-access-to-pricing-plan-members": [
+   "v",
+   "Wix Events",
+   "Events for pricing plan members only",
+   "",
+   "2025-07-02"
+  ],
+  "wix-events-request-uploading-a-predefined-guest-list": [
+   "v",
+   "Wix Events",
+   "Upload a guest list",
+   "",
+   "2025-07-02"
+  ],
+  "wix-events-request-allowing-guest-self-check-in": [
+   "v",
+   "Wix Events",
+   "Guest self check-in",
+   "",
+   "2025-07-13"
+  ],
+  "wix-event-request-customizing-the-fields-on-the-waitlist-form": [
+   "v",
+   "Wix Events",
+   "More fields on the waitlist form",
+   "",
+   "2025-07-02"
+  ],
+  "wix-events-request-setting-up-abandoned-carts": [
+   "v",
+   "Wix Events",
+   "Abandoned cart tracking for tickets",
+   "",
+   "2025-08-05"
+  ],
+  "wix-events-request-adding-a-loyalty-program": [
+   "v",
+   "Wix Events",
+   "Loyalty points for tickets",
+   "",
+   "2025-07-02"
+  ],
+  "wix-events-request-allowing-guests-to-cancel-tickets": [
+   "v",
+   "Wix Events",
+   "Guests cancel their own tickets",
+   "",
+   "2025-07-02"
+  ],
+  "wix-events-request-integration-with-wix-restaurants": [
+   "v",
+   "Wix Events",
+   "Events with Table Reservations",
+   "",
+   "2025-07-13"
+  ],
+  "wix-events-request-editing-all-recurring-events-at-once": [
+   "r",
+   "Wix Events",
+   "Edit all recurring events at once",
+   "",
+   "2026-07-14"
+  ],
+  "wix-forms-request-reusing-forms-on-other-sites": [
+   "v",
+   "Wix Forms",
+   "Reuse forms on other sites",
+   "",
+   "2025-07-02"
+  ],
+  "wix-forms-request-adding-a-date-field-to-the-new-wix-forms": [
+   "r",
+   "Wix Forms",
+   "Date field in the new Wix Forms",
+   "",
+   "2025-07-02"
+  ],
+  "wix-forms-request-image-choice-field": [
+   "r",
+   "Wix Forms",
+   "Image choice field",
+   "",
+   "2026-07-16"
+  ],
+  "wix-chat-request-adding-additional-fields-to-the-pre-chat-form": [
+   "v",
+   "Chat & messaging",
+   "More fields on the pre-chat form",
+   "",
+   "2025-10-08"
+  ],
+  "wix-smart-chat-request-adding-additional-fields-to-the-contact-form": [
+   "v",
+   "Chat & messaging",
+   "More fields on the Smart Chat contact form",
+   "",
+   "2026-06-02"
+  ],
+  "request-using-third-party-contact-form-apps-in-wix-inbox": [
+   "v",
+   "Chat & messaging",
+   "Third-party contact forms in Inbox",
+   "",
+   "2025-11-16"
+  ],
+  "site-members-request-placing-the-login-and-signup-forms-on-pages": [
+   "v",
+   "Site Members",
+   "Login and signup forms on a page",
+   "",
+   "2026-08-20"
+  ],
+  "site-members-request-adding-profile-fields-that-members-cannot-edit": [
+   "v",
+   "Site Members",
+   "Profile fields members can’t edit",
+   "",
+   "2025-07-02"
+  ],
+  "site-members-request-merging-site-members": [
+   "v",
+   "Site Members",
+   "Merge duplicate members",
+   "",
+   "2025-07-02"
+  ],
+  "online-programs-request-setting-up-a-membership-form": [
+   "v",
+   "Online Programs",
+   "Membership form before joining",
+   "",
+   "2025-07-08"
+  ],
+  "wix-restaurants-request-allowing-customers-to-choose-seating-area-when-booking-a-table": [
+   "r",
+   "Wix Restaurants",
+   "Choose a seating area when booking",
+   "",
+   "2026-08-10"
+  ],
+  "wix-restaurants-request-customizing-the-special-requests-option": [
+   "r",
+   "Wix Restaurants",
+   "Custom special-request notes",
+   "",
+   "2026-05-21"
+  ],
+  "wix-restaurants-request-adding-a-quick-add-to-cart-feature": [
+   "r",
+   "Wix Restaurants",
+   "Quick add to cart",
+   "",
+   "2026-09-22"
+  ],
+  "wix-restaurants-request-allowing-customers-to-pre-order-meals-for-in-house-dining": [
+   "r",
+   "Wix Restaurants",
+   "Pre-order meals for dine-in",
+   "",
+   "2026-03-24"
+  ],
+  "wix-restaurants-request-allowing-your-customers-to-order-on-the-wix-member-apps": [
+   "r",
+   "Wix Restaurants",
+   "Order from member apps",
+   "",
+   "2026-04-13"
+  ],
+  "wix-restaurants-request-connecting-square-pos-with-wix-restaurants-orders": [
+   "r",
+   "Wix Restaurants",
+   "Square POS for online orders",
+   "",
+   "2026-03-05"
+  ]
+ },
+ "changes": []
+}
