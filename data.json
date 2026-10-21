@@ -1,7 +1,7 @@
 {
- "checkedAt": null,
- "found": 0,
- "queries": 0,
+ "checkedAt": "2026-10-21T16:06:03.751Z",
+ "found": 307,
+ "queries": 317,
  "items": {
   "wix-stores-request-store-locator-feature": [
    "v",
@@ -2223,5 +2223,6 @@
    "2026-03-05"
   ]
  },
- "changes": []
+ "changes": [],
+ "unreadable": 10
 }
