@@ -1,7 +1,7 @@
 {
- "checkedAt": "2026-10-21T16:33:38.122Z",
+ "checkedAt": "2026-10-21T16:45:49.418Z",
  "found": 307,
- "queries": 317,
+ "queries": 307,
  "items": {
   "wix-stores-request-store-locator-feature": [
    "v",
@@ -2224,5 +2224,58 @@
   ]
  },
  "changes": [],
- "unreadable": 10
+ "unreadable": 0,
+ "planned": [
+  {
+   "t": "CMS is coming to Wix Harmony",
+   "eta": "Q2 2026",
+   "p": "Wix Harmony"
+  },
+  {
+   "t": "App builder: Wix-hosted, AI‑assisted dev with GitHub and live previews",
+   "eta": "Q2 2026",
+   "p": "CMS"
+  },
+  {
+   "t": "CMS collections: Turn content into a live e‑com catalog",
+   "eta": "Q2 2026",
+   "p": "Payments & tax"
+  },
+  {
+   "t": "Multi‑currency payouts: Sell local, get paid your way",
+   "eta": "Q2 2026",
+   "p": "Payments & tax"
+  },
+  {
+   "t": "Content categories: Power taxonomy and smart pages",
+   "eta": "Q2 2026",
+   "p": "Wix Harmony"
+  },
+  {
+   "t": "Design states in Wix Harmony",
+   "eta": "Q2 2026",
+   "p": "Wix Harmony"
+  },
+  {
+   "t": "Visual grid in Wix Harmony",
+   "eta": "Q2 2026",
+   "p": "Wix Harmony"
+  },
+  {
+   "t": "Gradients in Wix Harmony",
+   "eta": "Q2 2026",
+   "p": "Wix Harmony"
+  },
+  {
+   "t": "Breadcrumbs in Wix Harmony",
+   "eta": "Q2 2026",
+   "p": "Wix Harmony"
+  },
+  {
+   "t": "Lottie animations in Wix Harmony",
+   "eta": "Q2 2026",
+   "p": "Wix Harmony"
+  }
+ ],
+ "crawled": 0
 }
