@@ -2,6 +2,7 @@ name: Update Wix feature requests
 on:
   schedule:
     - cron: "15 4 * * *"
+    - cron: "40 15 * * *"
   workflow_dispatch: {}
 permissions:
   contents: write
