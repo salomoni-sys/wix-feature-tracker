@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-10-22T19:33:09.018Z",
+ "checkedAt": "2026-10-23T09:27:03.590Z",
  "found": 2018,
  "queries": 2018,
  "items": {
@@ -14198,9 +14198,25 @@
    "Charging for Bookings Sessions without Adding a Customer",
    "Managing Bookings in Wix POS Register",
    "2026-10-21"
+  ],
+  "wix-restaurants-setting-up-prepayment-for-table-reservations": [
+   "r",
+   "Releases",
+   "Late Cancellation or No-Show Fee",
+   "",
+   "2026-10-21",
+   "Announced on Wix’s New releases page.",
+   "rel"
   ]
  },
  "changes": [
+  {
+   "id": "wix-restaurants-setting-up-prepayment-for-table-reservations",
+   "t": "Late Cancellation or No-Show Fee",
+   "from": null,
+   "to": "r",
+   "at": "2026-10-23"
+  },
   {
    "id": "request-creating-a-dating-site",
    "t": "Creating a Dating Site",
@@ -14610,13 +14626,6 @@
   {
    "id": "wix-pro-gallery-request-displaying-multiple-images-videos-in-the-expand-mode-of-a-gallery-item",
    "t": "Displaying Multiple Images / Videos in the Expand Mode of a Gallery Item",
-   "from": null,
-   "to": "v",
-   "at": "2026-10-21"
-  },
-  {
-   "id": "wix-pro-gallery-request-applying-hover-effects-to-specific-gallery-items",
-   "t": "Applying Hover Effects to Specific Gallery Items",
    "from": null,
    "to": "v",
    "at": "2026-10-21"
