@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-10-26T10:15:56.232Z",
+ "checkedAt": "2026-10-26T20:51:40.013Z",
  "found": 2018,
  "queries": 2018,
  "items": {
@@ -14207,9 +14207,57 @@
    "2026-10-21",
    "Announced on Wix’s New releases page.",
    "rel"
+  ],
+  "wix-pipelines-an-overview": [
+   "r",
+   "Releases",
+   "Pipelines in Workspace",
+   "",
+   "2026-10-25",
+   "Announced on Wix’s New releases page.",
+   "rel"
+  ],
+  "wix-restaurants-setting-up-seating-areas-for-table-reservations": [
+   "r",
+   "Releases",
+   "Areas in Table Management",
+   "",
+   "2026-10-25",
+   "Announced on Wix’s New releases page.",
+   "rel"
+  ],
+  "wix-forms-using-the-submissions-board-to-visualize-form-responses": [
+   "r",
+   "Wix Forms",
+   "Submissions Board",
+   "",
+   "2026-10-25",
+   "Announced on Wix’s New releases page.",
+   "rel"
   ]
  },
  "changes": [
+  {
+   "id": "wix-pipelines-an-overview",
+   "t": "Pipelines in Workspace",
+   "from": null,
+   "to": "r",
+   "at": "2026-10-26"
+  },
+  {
+   "id": "wix-restaurants-setting-up-seating-areas-for-table-reservations",
+   "t": "Areas in Table Management",
+   "from": null,
+   "to": "r",
+   "at": "2026-10-26"
+  },
+  {
+   "id": "wix-forms-using-the-submissions-board-to-visualize-form-responses",
+   "t": "Submissions Board",
+   "from": null,
+   "to": "r",
+   "at": "2026-10-26"
+  },
   {
    "id": "wix-restaurants-setting-up-prepayment-for-table-reservations",
    "t": "Late Cancellation or No-Show Fee",
@@ -14605,27 +14653,6 @@
   {
    "id": "wix-pro-gallery-request-displaying-full-images-when-the-load-more-button-is-clicked-masonry-collage",
    "t": "Displaying Full Images When the \"Load More\" Button is Clicked (Masonry & Collage)",
-   "from": null,
-   "to": "v",
-   "at": "2026-10-21"
-  },
-  {
-   "id": "wix-pro-gallery-request-changing-a-gallery-image-on-hover",
-   "t": "Changing a Gallery Image On Hover",
-   "from": null,
-   "to": "v",
-   "at": "2026-10-21"
-  },
-  {
-   "id": "wix-pro-gallery-request-tracking-liked-shared-and-downloaded-gallery-items",
-   "t": "Tracking Liked, Shared and Downloaded Gallery Items",
-   "from": null,
-   "to": "v",
-   "at": "2026-10-21"
-  },
-  {
-   "id": "wix-pro-gallery-request-displaying-multiple-images-videos-in-the-expand-mode-of-a-gallery-item",
-   "t": "Displaying Multiple Images / Videos in the Expand Mode of a Gallery Item",
    "from": null,
    "to": "v",
    "at": "2026-10-21"
