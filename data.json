@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-10-27T09:54:35.012Z",
+ "checkedAt": "2026-10-27T20:20:15.213Z",
  "found": 2018,
  "queries": 2018,
  "items": {
@@ -8103,11 +8103,11 @@
    "2026-10-21"
   ],
   "wix-restaurants-request-saving-print-menu-design-settings": [
-   "v",
+   "r",
    "Wix Restaurants",
    "Saving Print Menu Design Settings",
    "Creating restaurant menus",
-   "2026-10-21"
+   "2026-10-27"
   ],
   "wix-restaurants-request-displaying-menu-item-details-in-a-full-page": [
    "v",
@@ -14238,6 +14238,13 @@
  },
  "changes": [
   {
+   "id": "wix-restaurants-request-saving-print-menu-design-settings",
+   "t": "Saving Print Menu Design Settings",
+   "from": "v",
+   "to": "r",
+   "at": "2026-10-27"
+  },
+  {
    "id": "wix-pipelines-an-overview",
    "t": "Pipelines in Workspace",
    "from": null,
@@ -14646,13 +14653,6 @@
   {
    "id": "wix-pro-gallery-request-filter-images-by-tags",
    "t": "Filter Images By Tags",
-   "from": null,
-   "to": "v",
-   "at": "2026-10-21"
-  },
-  {
-   "id": "wix-pro-gallery-request-displaying-full-images-when-the-load-more-button-is-clicked-masonry-collage",
-   "t": "Displaying Full Images When the \"Load More\" Button is Clicked (Masonry & Collage)",
    "from": null,
    "to": "v",
    "at": "2026-10-21"
