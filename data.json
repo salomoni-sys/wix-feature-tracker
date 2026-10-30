@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-10-29T20:41:14.528Z",
+ "checkedAt": "2026-10-30T10:57:15.312Z",
  "found": 2018,
  "queries": 2018,
  "items": {
@@ -14234,9 +14234,25 @@
    "2026-10-25",
    "Announced on Wix’s New releases page.",
    "rel"
+  ],
+  "wix-studio-creating-and-sending-client-intake-forms": [
+   "r",
+   "Wix Forms",
+   "Client Intake Forms",
+   "",
+   "2026-10-28",
+   "Announced on Wix’s New releases page.",
+   "rel"
   ]
  },
  "changes": [
+  {
+   "id": "wix-studio-creating-and-sending-client-intake-forms",
+   "t": "Client Intake Forms",
+   "from": null,
+   "to": "r",
+   "at": "2026-10-30"
+  },
   {
    "id": "wix-restaurants-request-saving-print-menu-design-settings",
    "t": "Saving Print Menu Design Settings",
@@ -14646,13 +14662,6 @@
   {
    "id": "wix-pro-gallery-request-keeping-the-title-and-description-when-replacing-an-image",
    "t": "Keeping the Title and Description When Replacing an Image",
-   "from": null,
-   "to": "v",
-   "at": "2026-10-21"
-  },
-  {
-   "id": "wix-pro-gallery-request-filter-images-by-tags",
-   "t": "Filter Images By Tags",
    "from": null,
    "to": "v",
    "at": "2026-10-21"
