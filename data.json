@@ -1,7 +1,7 @@
 {
- "checkedAt": "2026-11-02T12:30:42.872Z",
- "found": 1543,
- "queries": 2016,
+ "checkedAt": "2026-11-02T23:20:23.681Z",
+ "found": 2021,
+ "queries": 2021,
  "items": {
   "wix-stores-request-store-locator-feature": [
    "v",
@@ -2454,18 +2454,18 @@
    "2026-10-21"
   ],
   "wix-harmony-editor-feature-request-adding-indexes-to-your-collection-2": [
-   "v",
+   "r",
    "Wix Harmony",
    "Adding Indexes to Your Collection",
    "Using the editor tools",
-   "2026-10-21"
+   "2026-11-02"
   ],
   "wix-harmony-editor-feature-request-setting-advanced-collection-permissions": [
-   "v",
+   "r",
    "Wix Harmony",
    "Setting Advanced Collection Permissions",
    "Using the editor tools",
-   "2026-10-21"
+   "2026-11-02"
   ],
   "wix-harmony-editor-feature-request-adding-next-and-previous-navigation-buttons-to-item-pages-3": [
    "v",
@@ -14243,9 +14243,65 @@
    "2026-10-28",
    "Announced on Wix’s New releases page.",
    "rel"
+  ],
+  "wix-headless-request-adding-smart-chat-to-wix-headless-sites": [
+   "v",
+   "Developers",
+   "Adding Smart Chat to Wix Headless Sites",
+   "Using Wix Headless",
+   "2026-11-02"
+  ],
+  "wix-harmony-editor-feature-request-creating-catalog-collections-2": [
+   "v",
+   "Wix Harmony",
+   "Selling Items from Catalog Collections",
+   "Using the editor tools",
+   "2026-11-02"
+  ],
+  "request-using-dotpay-as-a-payment-provider": [
+   "v",
+   "Other",
+   "Using Dotpay as a Payment Provider",
+   "Third Party Payment Providers",
+   "2026-11-02"
   ]
  },
  "changes": [
+  {
+   "id": "wix-harmony-editor-feature-request-adding-indexes-to-your-collection-2",
+   "t": "Adding Indexes to Your Collection",
+   "from": "v",
+   "to": "r",
+   "at": "2026-11-02"
+  },
+  {
+   "id": "wix-harmony-editor-feature-request-setting-advanced-collection-permissions",
+   "t": "Setting Advanced Collection Permissions",
+   "from": "v",
+   "to": "r",
+   "at": "2026-11-02"
+  },
+  {
+   "id": "wix-headless-request-adding-smart-chat-to-wix-headless-sites",
+   "t": "Adding Smart Chat to Wix Headless Sites",
+   "from": null,
+   "to": "v",
+   "at": "2026-11-02"
+  },
+  {
+   "id": "wix-harmony-editor-feature-request-creating-catalog-collections-2",
+   "t": "Selling Items from Catalog Collections",
+   "from": null,
+   "to": "v",
+   "at": "2026-11-02"
+  },
+  {
+   "id": "request-using-dotpay-as-a-payment-provider",
+   "t": "Using Dotpay as a Payment Provider",
+   "from": null,
+   "to": "v",
+   "at": "2026-11-02"
+  },
   {
    "id": "wix-studio-creating-and-sending-client-intake-forms",
    "t": "Client Intake Forms",
@@ -14513,22 +14569,8 @@
    "at": "2026-10-21"
   },
   {
-   "id": "wix-harmony-editor-feature-request-adding-indexes-to-your-collection-2",
-   "t": "Adding Indexes to Your Collection",
-   "from": null,
-   "to": "v",
-   "at": "2026-10-21"
-  },
-  {
    "id": "site-management-request-allowing-more-than-30-characters-for-your-site-name",
    "t": "Allowing More Than 30 Characters for Your Site Name",
-   "from": null,
-   "to": "v",
-   "at": "2026-10-21"
-  },
-  {
-   "id": "wix-harmony-editor-feature-request-setting-advanced-collection-permissions",
-   "t": "Setting Advanced Collection Permissions",
    "from": null,
    "to": "v",
    "at": "2026-10-21"
@@ -14644,30 +14686,9 @@
    "from": null,
    "to": "v",
    "at": "2026-10-21"
-  },
-  {
-   "id": "wix-pro-gallery-request-changing-the-urls-of-individual-images",
-   "t": "Changing the URLs of Individual Images",
-   "from": null,
-   "to": "v",
-   "at": "2026-10-21"
-  },
-  {
-   "id": "wix-pro-gallery-request-changing-the-style-of-the-link-in-expand-mode",
-   "t": "Changing the Style of the Link in Expand Mode",
-   "from": null,
-   "to": "v",
-   "at": "2026-10-21"
-  },
-  {
-   "id": "wix-pro-gallery-request-keeping-the-title-and-description-when-replacing-an-image",
-   "t": "Keeping the Title and Description When Replacing an Image",
-   "from": null,
-   "to": "v",
-   "at": "2026-10-21"
   }
  ],
- "unreadable": 473,
+ "unreadable": 0,
  "planned": [
   {
    "t": "CMS is coming to Wix Harmony",
@@ -14720,5 +14741,5 @@
    "p": "Wix Harmony"
   }
  ],
- "crawled": 39
+ "crawled": 396
 }
