@@ -3,7 +3,9 @@
 // 2. Mondays and manual runs: walks Help Center category pages and adds any request
 //    listed under "Feature Requests" that isn't tracked yet.
 // 3. Reads Wix's Planned ahead and New releases pages for roadmap items and releases.
-// 4. Health check: if most pages can't be read (for example after a Help Center
+// 4. Polite by design: checks a rotating batch of the least recently checked pages
+//    each run, slowly, and backs off as soon as the Help Center starts refusing.
+// 5. Health check: if pages load but no status label can be found (a Help Center
 //    redesign), it keeps the last good data and fails the run so GitHub emails you.
 import { readFile, writeFile } from "node:fs/promises";
 
@@ -12,9 +14,10 @@ const HC = "https://support.wix.com";
 const ARTICLE = HC + "/en/article/";
 const PLANNED_PAGE = "https://www.wix.com/updates?view=planned";
 const RELEASES_PAGE = "https://www.wix.com/updates";
-const CONCURRENCY = 4, DELAY_MS = 300, TIMEOUT_MS = 15000;
+const CONCURRENCY = 2, DELAY_MS = 1200, TIMEOUT_MS = 15000;
+const MAX_PER_RUN = 500, BLOCK_LIMIT = 10;
 const CRAWL_MAX_PAGES = 2500, CRAWL_BUDGET_MS = 12 * 60 * 1000;
-const UA = "WixFeatureRequestTracker/2.0 (public status tracker; daily check)";
+const UA = "WixFeatureRequestTracker/2.1 (public status tracker; gentle daily check)";
 const FULL = process.env.FULL_SCAN === "1" || new Date().getUTCDay() === 1;
 const today = new Date().toISOString().slice(0, 10);
 const sleep = ms => new Promise(r => setTimeout(r, ms));
@@ -46,21 +49,27 @@ function statusOf(html) {
   return null;
 }
 
+// Counts refusals in a row (timeouts, 403, 429, 5xx). After BLOCK_LIMIT in a row the
+// Help Center is clearly asking us to slow down, so this run stops asking it.
+let refusedInRow = 0, backedOff = false;
 async function get(url) {
   try {
     const r = await fetch(url, { headers: { "user-agent": UA, "accept-language": "en" }, redirect: "follow", signal: AbortSignal.timeout(TIMEOUT_MS) });
+    const refused = r.status === 403 || r.status === 429 || r.status >= 500;
+    if (refused) { if (++refusedInRow >= BLOCK_LIMIT) backedOff = true; } else refusedInRow = 0;
+    if (r.status === 429) await sleep(30000);
     return { status: r.status, body: r.ok ? await r.text() : "" };
-  } catch (e) { return { status: 0, body: "" }; }
+  } catch (e) { if (++refusedInRow >= BLOCK_LIMIT) backedOff = true; return { status: 0, body: "" }; }
 }
 async function pool(list, fn, deadline = Infinity) {
   let i = 0;
   await Promise.all(Array.from({ length: CONCURRENCY }, async () => {
-    while (i < list.length && Date.now() < deadline) { const idx = i++; await fn(list[idx], idx); await sleep(DELAY_MS); }
+    while (i < list.length && Date.now() < deadline && !backedOff) { const idx = i++; await fn(list[idx], idx); await sleep(DELAY_MS + Math.random() * 600); }
   }));
 }
 
 const data = JSON.parse(await readFile(FILE, "utf8"));
-data.items ||= {}; data.changes ||= [];
+data.items ||= {}; data.changes ||= []; data.lastChecked ||= {};
 const changes = [];
 const log = (...a) => console.log(...a);
 
@@ -69,7 +78,7 @@ let discovered = 0, crawled = 0;
 if (FULL) {
   const deadline = Date.now() + CRAWL_BUDGET_MS;
   const seen = new Set(), queue = [HC + "/en"], found = new Map();
-  while (queue.length && seen.size < CRAWL_MAX_PAGES && Date.now() < deadline) {
+  while (queue.length && seen.size < CRAWL_MAX_PAGES && Date.now() < deadline && !backedOff) {
     const batch = queue.splice(0, CONCURRENCY * 4).filter(u => !seen.has(u));
     batch.forEach(u => seen.add(u));
     await pool(batch, async url => {
@@ -95,31 +104,37 @@ if (FULL) {
   log(`Discovery: crawled ${crawled} Help Center pages, found ${discovered} untracked requests.`);
 }
 
-// ---- 2. Re-check every tracked request ----
-const slugs = Object.keys(data.items);
-let checked = 0, unreadable = 0, skipped = 0;
+// ---- 2. Re-check a rotating batch: new ones first, then the least recently checked ----
+backedOff = false; refusedInRow = 0;
+const all = Object.keys(data.items).filter(k => data.items[k][6] !== "rel");
+const rank = k => data.items[k][0] === "?" ? "" : (data.lastChecked[k] || "0");
+const slugs = all.sort((a, b) => rank(a).localeCompare(rank(b))).slice(0, MAX_PER_RUN);
+let checked = 0, unreadable = 0, skipped = 0, noLabel = 0, loaded = 0;
 await pool(slugs, async slug => {
   const item = data.items[slug];
-  if (item[6] === "rel") { skipped++; return; }
   const { status, body } = await get(ARTICLE + slug);
+  if (status === 200) loaded++;
   const s = status === 200 ? statusOf(body) : null;
   if (!s) {
-    if (item[0] === "?") { delete data.items[slug]; discovered--; return; }   // couldn't confirm a new one: drop it
-    if (!/request/.test(slug)) { skipped++; return; }                          // release article, not a request page
+    if (status === 200 && !/request/.test(slug)) { skipped++; data.lastChecked[slug] = today; return; }  // release article, not a request page
+    if (status === 200) noLabel++;
+    if (item[0] === "?" && status === 200) { delete data.items[slug]; discovered--; return; }        // loaded but not a request: drop it
     unreadable++; return;
   }
-  checked++;
+  checked++; data.lastChecked[slug] = today;
   if (item[0] === "?") { item[0] = s; changes.push({ id: slug, t: item[2], from: null, to: s, at: today }); return; }
   if (item[0] !== s) { changes.push({ id: slug, t: item[2], from: item[0], to: s, at: today }); item[0] = s; item[4] = today; }
 });
-log(`Status check: ${checked} read, ${unreadable} unreadable, ${skipped} skipped.`);
+log(`Status check: ${checked} read, ${unreadable} unreadable, ${skipped} skipped (batch of ${slugs.length} out of ${all.length}).${backedOff ? " The Help Center asked us to slow down, so this run stopped early; the rest are checked next run." : ""}`);
 
-// ---- 3. Health check ----
+// ---- 3. Health check: pages load but the status label is missing = Help Center redesign ----
 const attempted = checked + unreadable;
-if (attempted > 20 && checked / attempted < 0.5) {
-  console.error(`Only ${checked} of ${attempted} request pages could be read. The Help Center may have changed. Keeping the last good data.`);
+if (loaded > 20 && noLabel / loaded > 0.5) {
+  console.error(`${noLabel} of ${loaded} request pages loaded without a readable status label. The Help Center may have changed. Keeping the last good data.`);
   process.exit(1);
 }
+const pending = Object.keys(data.items).filter(k => data.items[k][0] === "?").length;
+if (pending) log(`${pending} newly found requests are waiting to be confirmed in a later run.`);
 
 // ---- 4. Planned ahead and New releases pages ----
 function pickProduct(tags, title) {
@@ -168,7 +183,4 @@ function pickProduct(tags, title) {
 }
 
 data.checkedAt = new Date().toISOString();
-data.found = checked; data.queries = attempted; data.unreadable = unreadable; data.crawled = crawled;
-data.changes = [...changes, ...data.changes.filter(c => !changes.some(n => n.id && n.id === c.id))].slice(0, 60);
-await writeFile(FILE, JSON.stringify(data, null, 1) + "\n");
-log(`Done: ${changes.length} changes, ${Math.max(0, discovered)} new requests.`);
+const since = new Date(Date.now() - 3 *
