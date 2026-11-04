@@ -1,35 +1,39 @@
 name: Update Wix feature requests
 on:
   schedule:
-    - cron: "15 4 * * *"
-    - cron: "40 15 * * *"
+    - cron: "20 */3 * * *"
   workflow_dispatch: {}
 permissions:
   contents: write
+  issues: write
+concurrency:
+  group: tracker-update
+  cancel-in-progress: false
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 50
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: "22"
-      - name: Get the latest updater
+      - name: Run the tracker update
         run: |
-          if curl -fsSL "https://headless-qiazfzvqaqv-salomoni0-1409.wix-site-host.com/updater/update.mjs" -o /tmp/update.mjs && node --check /tmp/update.mjs; then
-            cp /tmp/update.mjs updater/update.mjs
-            echo "Using the latest updater from the tracker site."
-          else
-            echo "Could not download the latest updater; using the copy in this repository."
-          fi
-      - run: node updater/update.mjs
+          curl -fsSL --retry 3 "https://headless-qiazfzvqaqv-salomoni0-1409.wix-site-host.com/updater/run.txt" -o /tmp/run.sh
+          bash /tmp/run.sh
+      - name: Alert me if it failed
+        if: failure()
         env:
-          FULL_SCAN: ${{ github.event_name == 'workflow_dispatch' && '1' || '' }}
-      - name: Save changes
+          GH_TOKEN: ${{ github.token }}
         run: |
-          git config user.name "tracker-bot"
-          git config user.email "tracker-bot@users.noreply.github.com"
-          git add data.json
-          git diff --cached --quiet || git commit -m "Daily update $(date -u +%F)"
-          git push
+          gh label create tracker-alert --color D93F0B --description "Automatic tracker alerts" 2>/dev/null || true
+          { echo "The automatic tracker update failed on $(date -u +'%F %H:%M UTC')."; echo; echo "Run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"; echo; echo "Last lines of the log:"; echo; (tail -n 40 /tmp/update.log 2>/dev/null || echo "No log was saved.") | sed 's/^/    /'; } > /tmp/body.md
+          n=$(gh issue list --label tracker-alert --state open --json number --jq '.[0].number')
+          if [ -n "$n" ]; then gh issue comment "$n" --body-file /tmp/body.md; else gh issue create --title "Tracker update is failing" --label tracker-alert --body-file /tmp/body.md; fi
+      - name: Close alerts after a good run
+        if: success()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          for n in $(gh issue list --label tracker-alert --state open --json number --jq '.[].number'); do gh issue close "$n" --comment "Fixed itself: the update on $(date -u +'%F %H:%M UTC') succeeded."; done
